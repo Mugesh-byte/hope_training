@@ -31,11 +31,10 @@ class SMSNotification extends Notification{
 
 public class notify{
     public static void main(String[] args) {
-        Notification n;
-        n= new EmailNotification("Mugesh","Hello");
-        n.send();
-        n=new SMSNotification("Mugesh","Bye");
-        n.send();
+        Notification[] n={new EmailNotification("mugesh", "HI"),new SMSNotification("Mugesh", "Bye")};
+        for(Notification a:n){
+            a.send();
+        }
 
     }
 
