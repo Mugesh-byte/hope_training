@@ -1,0 +1,12 @@
+public class Npattern{
+    public static void main(String[] args){
+        String n="hello";
+        int m=n.length()-1;
+        for(int i=0;i<=m;i++){
+            for(int j=i;j<=m;j++){
+                System.out.println(n[j]+n[m-j]);
+            }
+            System.out.println();
+        }
+    }
+}
