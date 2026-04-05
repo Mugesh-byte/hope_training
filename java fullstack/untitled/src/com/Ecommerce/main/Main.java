@@ -1,6 +1,6 @@
-package com.Ecommerce.main;
-import com.Ecommerce.model.*;
-import com.Ecommerce.service.OrderService;
+package src.com.Ecommerce.main;
+import src.com.Ecommerce.model.*;
+import src.com.Ecommerce.service.OrderService;
 public class Main {
     public static void main(String[] args){
         User u=new User("Zuhail","thailand");

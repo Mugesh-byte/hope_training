@@ -1,4 +1,4 @@
-package com.Ecommerce.model;
+package src.com.Ecommerce.model;
 
 public class User{
     public String name;

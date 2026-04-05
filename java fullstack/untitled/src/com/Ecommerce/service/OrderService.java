@@ -1,6 +1,6 @@
-package com.Ecommerce.service;
+package src.com.Ecommerce.service;
 
-import com.Ecommerce.model.Order;
+import src.com.Ecommerce.model.Order;
 
 public class OrderService {
     

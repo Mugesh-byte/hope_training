@@ -1,5 +1,6 @@
-import src.com.rampex.utils.pack;
 import java.lang.Math;
+
+import com.rampex.utils.pack;
 public class Add {
     public static void main(String[] args){
         System.out.println(Math.sqrt(16));

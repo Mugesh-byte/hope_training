@@ -1,4 +1,4 @@
-package src.com.rampex.utils;
+package com.rampex.utils;
 
 public class pack {
     public static int add(int a,int b){
