@@ -25,6 +25,7 @@ class ComparatorExample{
         students.add(new Students(5,"i",99));
 
         Comparator<Students> byId=new Comparator<Students>(){
+            @Override
             public int compare(Students a,Students b){
                 return a.id-b.id;
             }

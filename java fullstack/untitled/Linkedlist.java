@@ -1,3 +1,5 @@
+import java.util.Comparator;
+import java.util.Collections;
 class Node{
     int data;
     Node next;
@@ -107,6 +109,12 @@ class Linkedlist{
         //s.deleteatpos(3);
         //s.deleteatfirst();
         //s.deleteatend();
+        Comparator<Node> byId=new Comparator<Node>(){
+            @Override
+            public int compare(Node a,Node b){
+                return a.data-b.data;
+            }};
+        Collections.sort(s,byId);
         Node start=s.reverse();
         while(start.next!=null){
             System.out.println(start.data);

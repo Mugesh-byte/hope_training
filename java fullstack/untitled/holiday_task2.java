@@ -11,7 +11,9 @@ abstract class Item {
         setPrice(price);
         setStock(stock);
     }
-    public String getName() { return name; }
+    public String getName() {
+        return name;
+    }
     
     public double getPrice() { return price; }
     public void setPrice(double price) {
@@ -19,7 +21,9 @@ abstract class Item {
         this.price = price;
     }
 
-    public int getStock() { return stock; }
+    public int getStock() {
+        return stock;
+    }
     public void setStock(int stock) {
         if (stock < 0) throw new IllegalArgumentException("Stock cannot be negative.");
         this.stock = stock;
