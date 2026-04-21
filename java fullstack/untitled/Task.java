@@ -25,6 +25,7 @@ class Task{
         products.add(new Product("compass",10,5.0));
 
         Comparator<Product> byprice=new Comparator<Product>(){
+            @Override
             public int compare(Product a,Product b){
                 return Integer.compare(a.price,b.price);
             }
